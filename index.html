@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>: - ) -- RATE THIS AMERICAN's NOSE</title>
+  <link rel="stylesheet" href="lee.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <h1><span class="ti1">RATE</span> this <span class="ti2">AMERICAN's</span> NOSE.</h1>
+  <h2>FUN, CLEAN, and REAL</h2>
+
+  <section class="rate">
+    <h3>Select a rating to see the next picture.</h3>
+    <span class="not">NOT</span>
+    <input type="radio" name="rating" value="1"> 1
+    <input type="radio" name="rating" value="2"> 2
+    <input type="radio" name="rating" value="3"> 3
+    <input type="radio" name="rating" value="4"> 4
+    <input type="radio" name="rating" value="5"> 5
+    <input type="radio" name="rating" value="6"> 6
+    <input type="radio" name="rating" value="7"> 7
+    <input type="radio" name="rating" value="8"> 8
+    <input type="radio" name="rating" value="9"> 9
+    <input type="radio" name="rating" value="10"> 10
+    <span class="hot">HOT</span>
+  </section>
+
+  <section class="nose">
+    <img src="nose1.jpg" />
+  </section>
+
+  <script>
+    $(function(){
+      $('input:radio').change(function(){
+        window.location.replace("https://ratethisamericansnose.com");
+      });          
+    });
+  </script>
+
+</body>
+</html>
