@@ -30,13 +30,15 @@
   </section>
 
   <section class="nose">
-    <img src="nose1.jpg" />
+    <img src="nose1.JPG" />
   </section>
 
   <script>
     $(function(){
       $('input:radio').change(function(){
-        window.location.replace("https://ratethisamericansnose.com");
+        setTimeout(function(){
+          window.location.replace("https://ratethisamericansnose.com");
+        },1000); 
       });          
     });
   </script>
